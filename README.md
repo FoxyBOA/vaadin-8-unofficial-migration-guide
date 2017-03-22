@@ -8,3 +8,11 @@ Below you’ll find list of Vaadin (UI server) components and changed API that I
 setRequired() | setRequiredIndicatorVisible()
 setColumns(x) | setWidth(x, Unit.REM)
 setInputPrompt() | setPlaceholder()
+
+### PasswordField
+changed parent class AbstractTextField -> TextField
+
+### ComboBox
+7 | 8
+------------ | -------------
+setNullSelectionAllowed() | setEmptySelectionAllowed()
