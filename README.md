@@ -25,4 +25,4 @@ setNullSelectionAllowed() | setEmptySelectionAllowed()
 ### VerticalLayout
 7 | 8
 ------------ | -------------
-```marging``` is ```false``` by default | ```true```
+```margin``` is ```false``` by default | ```true```
