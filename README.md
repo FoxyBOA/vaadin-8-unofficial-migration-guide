@@ -21,3 +21,8 @@ setNullSelectionAllowed() | setEmptySelectionAllowed()
 
 ### DateField
 ```getDate()``` return ```LocalDate``` instead of ```java.util.Date```. The simplest way to convert is ```java.sql.Date.valueOf(dateField.getValue())```
+
+### VerticalLayout
+7 | 8
+------------ | -------------
+```marging``` is false by default | true
