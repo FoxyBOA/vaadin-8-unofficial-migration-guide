@@ -18,6 +18,7 @@ changed parent class ```AbstractTextField``` -> ```TextField```
 7 | 8
 ------------ | -------------
 setNullSelectionAllowed() | setEmptySelectionAllowed()
+setNewItemsAllowed() | auto manage value based on setNewItemHandler().
 
 ### DateField
 ```getDate()``` return ```LocalDate``` instead of ```java.util.Date```. The simplest way to convert is ```java.sql.Date.valueOf(dateField.getValue())```
